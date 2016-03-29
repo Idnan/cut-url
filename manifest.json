@@ -1,0 +1,34 @@
+{
+  "manifest_version": 2,
+  "name": "ShortIt",
+  "short_name": "ShortIt",
+  "description": "Short your urls",
+  "version": "1.0",
+  "background": {
+    "persistent": false,
+    "scripts": ["assets/js/jquery.js", "assets/js/background.js"]
+  },
+  "permissions": [
+    "*://*.googleapis.com/*",
+    "notifications",
+     "tabs"
+  ],
+  "icons": {
+    "16": "assets/img/ico16.png",
+    "48": "assets/img/ico48.png",
+    "128": "assets/img/ico128.png"
+  },
+  "homepage_url": "http://github.com/idnan",
+  "commands": {
+    "toggle-pin": {
+      "suggested_key": { 
+        "default": "Ctrl+Shift+B",
+        "windows": "Ctrl+Shift+B",
+        "mac": "MacCtrl+Shift+B",
+        "chromeos": "Ctrl+Shift+B",
+        "linux": "Ctrl+Shift+B"
+      },
+      "description": "Short your urls"
+    }
+  }
+}
