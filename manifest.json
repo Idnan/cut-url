@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "ShortIt",
   "short_name": "ShortIt",
-  "description": "Short your urls",
+  "description": "Chrome Extension that shorts your url. Enables a new keyboard shortcut (Ctrl+Shift+S) to generate short url of the current tab.",
   "version": "1.0",
   "background": {
     "persistent": false,
@@ -21,12 +21,12 @@
   "homepage_url": "http://github.com/idnan",
   "commands": {
     "toggle-pin": {
-      "suggested_key": { 
-        "default": "Ctrl+Shift+B",
-        "windows": "Ctrl+Shift+B",
-        "mac": "MacCtrl+Shift+B",
-        "chromeos": "Ctrl+Shift+B",
-        "linux": "Ctrl+Shift+B"
+      "suggested_key": {
+        "default": "Ctrl+Shift+S",
+        "windows": "Ctrl+Shift+S",
+        "mac": "MacCtrl+Shift+S",
+        "chromeos": "Ctrl+Shift+S",
+        "linux": "Ctrl+Shift+S"
       },
       "description": "Short your urls"
     }
