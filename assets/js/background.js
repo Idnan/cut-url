@@ -5,6 +5,13 @@ chrome.commands.onCommand.addListener(function (command) {
 
     	if (tabs[0] && tabs[0].url) {
     		var longUrl = tabs[0].url;
+
+    		// disbale browser urls
+    		var pattern = /^((chrome):\/\/)/;
+    		if(pattern.test(longUrl)) {
+			    return;
+			}
+
 	        var json = {'longUrl': longUrl};
 
 	        $.ajax({
@@ -39,8 +46,13 @@ function copyToClipboard(shortUrl) {
 }
 
 function show(shortUrl) {
-    new Notification('Url Shortened', {
-        icon: '../img/ico48.png',
+    var notification = new Notification('Url Shortened', {
+        icon: 'assets/img/ico48.png',
         body: shortUrl + ' (Copied to clipboard)'
     });
+
+    // hide notification after 4 seconds
+	// setTimeout(function(){
+	// 	notification.close();
+	// },4000);
 }
