@@ -1,1 +1,3 @@
-Chrome Extension to shorten your url. Enables a new keyboard shortcut (Ctrl+Shift+C) to generate short url of the current tab.
+CutUrl shortener is an extension which allows you to shorten the current website URL with the Google URL Shortener service http://goo.gl/
+
+On any page press this shortcut key (Ctrl+Shift+C) and short url for the page will automatically generated and copied to your clipboard.

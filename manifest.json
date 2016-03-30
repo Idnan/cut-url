@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "CutUrl",
   "short_name": "CutUrl",
-  "description": "Chrome Extension to shorten your url. Enables a new keyboard shortcut (Ctrl+Shift+C) to generate short url of the current tab.",
+  "description": "Chrome Extension - Use http://goo.gl/ to shorten your URLs in a Shortcut.",
   "version": "1.0",
   "background": {
     "persistent": false,
