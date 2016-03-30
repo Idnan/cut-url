@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
-  "name": "BiteUrl",
-  "short_name": "BiteUrl",
-  "description": "Chrome Extension to shorten your url. Enables a new keyboard shortcut (Ctrl+Shift+S) on Mac (Control+Shift+S) to generate short url of the current tab.",
+  "name": "CutUrl",
+  "short_name": "CutUrl",
+  "description": "Chrome Extension to shorten your url. Enables a new keyboard shortcut (Ctrl+Shift+C) to generate short url of the current tab.",
   "version": "1.0",
   "background": {
     "persistent": false,
@@ -22,11 +22,11 @@
   "commands": {
     "toggle-pin": {
       "suggested_key": {
-        "default": "Ctrl+Shift+S",
-        "windows": "Ctrl+Shift+S",
-        "mac": "MacCtrl+Shift+S",
-        "chromeos": "Ctrl+Shift+S",
-        "linux": "Ctrl+Shift+S"
+        "default": "Ctrl+Shift+C",
+        "windows": "Ctrl+Shift+C",
+        "mac": "MacCtrl+Shift+C",
+        "chromeos": "Ctrl+Shift+C",
+        "linux": "Ctrl+Shift+C"
       },
       "description": "Short your urls"
     }
