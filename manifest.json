@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
-  "name": "ShortIt",
-  "short_name": "ShortIt",
-  "description": "Chrome Extension that shorts your url. Enables a new keyboard shortcut (Ctrl+Shift+S) to generate short url of the current tab.",
+  "name": "BiteUrl",
+  "short_name": "BiteUrl",
+  "description": "Chrome Extension to shorten your url. Enables a new keyboard shortcut (Ctrl+Shift+S) on Mac (Control+Shift+S) to generate short url of the current tab.",
   "version": "1.0",
   "background": {
     "persistent": false,

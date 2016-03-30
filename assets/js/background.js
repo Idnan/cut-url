@@ -50,9 +50,4 @@ function show(shortUrl) {
         icon: 'assets/img/ico48.png',
         body: shortUrl + ' (Copied to clipboard)'
     });
-
-    // hide notification after 4 seconds
-	// setTimeout(function(){
-	// 	notification.close();
-	// },4000);
 }
