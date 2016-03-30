@@ -2,7 +2,7 @@
 <img width="120" src="http://imgur.com/Z2U8qrS.png" text-align="center">
 </p>
 
-> Chrome Extension - Use http://goo.gl/ to shorten your URLs in a Shortcut.
+> Chrome Extension - To shorten your URLs in a Shortcut.
 
 CutUrl is a chrome extension which allows you to shorten the current website URL with the Google URL Shortener service http://goo.gl/
 
