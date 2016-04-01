@@ -8,7 +8,7 @@ CutUrl is a chrome extension which allows you to shorten the current website URL
 
 On any page press this shortcut key (Alt+Shift+C) and short url for the page will **automatically generated and copied** to your clipboard.
 
-![New Tab](http://i.imgur.com/X73vc7u.png)
+![New Tab](http://i.imgur.com/mgJTtWn.png)
 
 ## Installation
 
