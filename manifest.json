@@ -3,7 +3,7 @@
   "name": "CutUrl",
   "short_name": "CutUrl",
   "description": "Chrome Extension - Use http://goo.gl/ to shorten your URLs in a Shortcut.",
-  "version": "1.0",
+  "version": "1.0.2",
   "background": {
     "persistent": false,
     "scripts": ["assets/js/jquery.js", "assets/js/background.js"]
@@ -22,11 +22,11 @@
   "commands": {
     "toggle-pin": {
       "suggested_key": {
-        "default": "Ctrl+Shift+C",
-        "windows": "Ctrl+Shift+C",
-        "mac": "MacCtrl+Shift+C",
-        "chromeos": "Ctrl+Shift+C",
-        "linux": "Ctrl+Shift+C"
+        "default": "Alt+Shift+C",
+        "windows": "Alt+Shift+C",
+        "mac": "Alt+Shift+C",
+        "chromeos": "Alt+Shift+C",
+        "linux": "Alt+Shift+C"
       },
       "description": "Short your urls"
     }
