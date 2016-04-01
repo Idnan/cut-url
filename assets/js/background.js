@@ -15,7 +15,7 @@ chrome.commands.onCommand.addListener(function (command) {
 	        var json = {'longUrl': longUrl};
 
 	        $.ajax({
-	            'url': 'https://www.googleapis.com/urlshortener/v1/url?key=AIzaSyBbm-qp6l_JIe-rbmBX1ebN2xWmIWtEpII',
+	            'url': 'https://www.googleapis.com/urlshortener/v1/url?key=?????????????????????????',
 	            headers: {
 	                'Content-Type': 'application/json'
 	            },
