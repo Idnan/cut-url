@@ -17,4 +17,4 @@ Extension itself doesn't need any setup. All you have to do is
 - Install it from [Chrome Webstore](https://goo.gl/qhytkd).
 
 ## Contribution
-I'd love to hear what you have to say. Reach me out at mahradnan@hotmail.com
+I'd love to hear what you have to say. Reach me out at idnan.se@gmail.com
